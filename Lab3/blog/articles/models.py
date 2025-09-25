@@ -1,7 +1,4 @@
 from django.db import models
-
-# Create your models here.
-from django.db import models
 from django.contrib.auth.models import User
 
 class Article(models.Model):
@@ -24,4 +21,5 @@ class Article(models.Model):
 
     def get_excerpt(self):
        # Если текст длиннее 140 символов, добавляет многоточие в конец.
+
         return self.text[:140] + "..." if len(self.text) > 140 else self.text
