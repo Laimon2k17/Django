@@ -1,0 +1,159 @@
+body {
+	background: #1abc9c;
+	font-family: Tahoma, Arial, sans-serif; 
+	color: #ffffff;
+
+}
+
+.header img {
+	display: block; 
+	width: 318px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+.archive {
+	width: 960px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.one-post {
+
+}
+
+.post-title {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.post-title a {
+    color: #ffffff;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
+.article-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.article-author {
+	width: 50%; 
+	float: left;
+}
+
+.article-created-date {
+    color: #e0e0e0;
+	text-align: right;
+}
+
+.article-text {
+    line-height: 1.6;
+}
+
+.back-link {
+    text-align: right;
+    margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.back-link a {
+    color: #ffffff;
+    text-decoration: none;
+    background: #3498db;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.back-link a:hover {
+    background: #2980b9;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+input[type="text"] {
+    height: 40px;
+}
+
+textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background: #2980b9;
+}
+
+.error {
+    color: #e74c3c;
+    background: #fadbd8;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    background: #3498db;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+.create-link {
+    text-align: center;
+    margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.create-link a {
+    color: #ffffff;
+    text-decoration: none;
+    background: #3498db;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.create-link a:hover {
+    background: #2980b9;
+}
